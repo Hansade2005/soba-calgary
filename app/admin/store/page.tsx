@@ -120,7 +120,7 @@ const AdminStorePage = () => {
             Store Management
           </h1>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
-            Manage SOBA Ontario store items
+            Manage SOBA Calgary store items
           </p>
         </div>
         <Link

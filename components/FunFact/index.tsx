@@ -59,8 +59,8 @@ const FunFact = () => {
               Trusted by Members Across Canada
             </h2>
             <p className="mx-auto lg:w-11/12">
-              SOBA Ontario has grown from a small group of Class of '87 alumni in the GTA to a 
-              thriving community of over 30 active members across Ontario. Our commitment to 
+              SOBA Calgary has grown from a small group of Class of '87 alumni in the GTA to a 
+              thriving community of over 30 active members across SOBA Calgary. Our commitment to 
               brotherhood, education, and community service continues to strengthen our bonds.
             </p>
           </motion.div>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import MembershipForm from "@/components/Membership/MembershipForm";
 
 export const metadata: Metadata = {
-  title: "Membership - SOBA Ontario",
-  description: "Join SOBA Ontario and become part of our thriving community of Sasse College alumni in Ontario, Canada.",
+  title: "Membership - SOBA Calgary",
+  description: "Join SOBA Calgary and become part of our thriving community of Sasse College alumni in Calgary, Canada.",
 };
 
 export default function MembershipPage() {
@@ -14,10 +14,10 @@ export default function MembershipPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="text-center">
             <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              Join SOBA Ontario
+              Join SOBA Calgary
             </h1>
             <p className="mb-6 text-lg">
-              Become part of our thriving community of over 30 active Sasse College alumni across Ontario
+              Become part of our thriving community of over 30 active Sasse College alumni across SOBA Calgary
             </p>
             
             <div className="mb-10 rounded-lg bg-blue-50 p-4 dark:bg-blue-900/20">

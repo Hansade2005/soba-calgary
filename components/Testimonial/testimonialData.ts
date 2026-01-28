@@ -9,7 +9,7 @@ export const testimonialData: Testimonial[] = [
     designation: "Founding Member, Class of '87",
     image: image1,
     content:
-      "SOBA Ontario has been instrumental in helping me connect with fellow Sobans across Ontario. The support network we've built here is truly remarkable, and I'm proud to be part of this growing community.",
+      "SOBA Calgary has been instrumental in helping me connect with fellow Sobans across SOBA Calgary. The support network we've built here is truly remarkable, and I'm proud to be part of this growing community.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const testimonialData: Testimonial[] = [
     designation: "Founding Member, Class of '87",
     image: image2,
     content:
-      "From a small group in the GTA to over 30 active members province-wide, SOBA Ontario has exceeded our expectations. The financial support programs and community integration services make a real difference.",
+      "From a small group in the GTA to over 30 active members province-wide, SOBA Calgary has exceeded our expectations. The financial support programs and community integration services make a real difference.",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const testimonialData: Testimonial[] = [
     designation: "Founding Member, Class of '87",
     image: image1,
     content:
-      "The brotherhood we've maintained since our Sasse College days continues to thrive in Ontario. SOBA Ontario provides the perfect platform for professional networking and community support.",
+      "The brotherhood we've maintained since our Sasse College days continues to thrive in SOBA Calgary. SOBA Calgary provides the perfect platform for professional networking and community support.",
   },
   {
     id: 4,
@@ -41,6 +41,6 @@ export const testimonialData: Testimonial[] = [
     designation: "Pioneer President, Class of '87",
     image: image1,
     content:
-      "SOBA Ontario has grown significantly since its founding. It's inspiring to see the community thrive and support new members.",
+      "SOBA Calgary has grown significantly since its founding. It's inspiring to see the community thrive and support new members.",
   },
 ];

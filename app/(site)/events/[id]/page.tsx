@@ -18,31 +18,31 @@ const allEvents = [
     endTime: "TBA",
     location: "Toronto",
     description: "May 17th, Soban Emeritus Armsty will represent us at the 2025 MECA Toronto gala & bring our support of $150 with him",
-    fullDescription: "SOBA Ontario will be represented at the 2025 MECA Toronto Gala by Soban Emeritus Armsty. This is an important community event where we show our support and solidarity with other organizations. We are contributing $150 to support this event and strengthen our inter-community relationships.",
+    fullDescription: "SOBA Calgary will be represented at the 2025 MECA Toronto Gala by Soban Emeritus Armsty. This is an important community event where we show our support and solidarity with other organizations. We are contributing $150 to support this event and strengthen our inter-community relationships.",
     image: "/images/gallery/DSCF8816.jpg",
     type: "Community",
     featured: false,
     agenda: [
-      "Soban Emeritus Armsty will represent SOBA Ontario",
+      "Soban Emeritus Armsty will represent SOBA Calgary",
       "Presentation of $150 support contribution",
       "Networking with other community organizations",
       "Strengthening inter-community relationships"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
-    cost: "SOBA Ontario representation only"
+    cost: "SOBA Calgary representation only"
   },
   {
     id: 1,
-    title: "SOBA Ontario Community Day 2025",
+    title: "SOBA Calgary Community Day 2025",
     date: "May 31, 2025",
     dateISO: "2025-05-31",
     time: "9:30 AM - 12:30 PM",
     startTime: "9:30 AM",
     endTime: "12:30 PM",
     location: "FEED Scarborough",
-    description: "Saturday May 31st is SOBA Ontario Community Day. This year we will be helping out at FEED Scarborough from 9:30AM - 12:30PM. Stay tuned for more info on this.",
-    fullDescription: "SOBA Ontario Community Day 2025 takes on a special meaning this year as we dedicate our time to community service at FEED Scarborough. This volunteer opportunity allows us to give back to the broader community while strengthening our bonds as Sobans. Join us for this meaningful day of service from 9:30AM to 12:30PM.",
+    description: "Saturday May 31st is SOBA Calgary Community Day. This year we will be helping out at FEED Scarborough from 9:30AM - 12:30PM. Stay tuned for more info on this.",
+    fullDescription: "SOBA Calgary Community Day 2025 takes on a special meaning this year as we dedicate our time to community service at FEED Scarborough. This volunteer opportunity allows us to give back to the broader community while strengthening our bonds as Sobans. Join us for this meaningful day of service from 9:30AM to 12:30PM.",
     image: "/images/gallery/DSCF8816.jpg",
     type: "Community",
     featured: true,
@@ -54,7 +54,7 @@ const allEvents = [
       "12:00 PM - Cleanup and Reflection",
       "12:30 PM - Event Conclusion"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: true,
     cost: "Free - Community Service"
   },
@@ -68,7 +68,7 @@ const allEvents = [
     endTime: "6:00 PM",
     location: "Calgary",
     description: "June 6th - 8th 2025, SOBA Calgary Fraternity Weekend. As discussed at the last GA, there will be a voluntary drive to supplement the standard $150 we give out to sister groups",
-    fullDescription: "SOBA Calgary Fraternity Weekend is a special inter-chapter event that strengthens the bonds between SOBA chapters across Canada. As approved at our last General Assembly, SOBA Ontario will contribute our standard $150 support to sister groups, with an additional voluntary drive to supplement this contribution and show our solidarity with SOBA Calgary.",
+    fullDescription: "SOBA Calgary Fraternity Weekend is a special inter-chapter event that strengthens the bonds between SOBA chapters across Canada. As approved at our last General Assembly, SOBA Calgary will contribute our standard $150 support to sister groups, with an additional voluntary drive to supplement this contribution and show our solidarity with SOBA Calgary.",
     image: "/images/gallery/DSCF7024.jpg",
     type: "Fraternity",
     featured: false,
@@ -79,7 +79,7 @@ const allEvents = [
       "Sunday: Closing Ceremony and Departure",
       "Voluntary contribution drive to supplement standard $150 support"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
     cost: "Standard $150 + voluntary contributions"
   },
@@ -105,13 +105,13 @@ const allEvents = [
       "Networking and Fellowship",
       "Closing Remarks and Next Steps"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: true,
     cost: "Free for members"
   },
   {
     id: 3,
-    title: "SOBA Ontario Family Picnic",
+    title: "SOBA Calgary Family Picnic",
     date: "June 22, 2025",
     dateISO: "2025-06-22",
     time: "11:00 AM - 6:00 PM",
@@ -119,7 +119,7 @@ const allEvents = [
     endTime: "6:00 PM",
     location: "Centennial Park, Toronto",
     description: "Bring your family for a day of fun, food, and fellowship. Activities include games, BBQ, and networking opportunities.",
-    fullDescription: "Our annual family picnic is a beloved tradition that brings together SOBA Ontario members and their families for a day of outdoor fun and fellowship. Set in the beautiful Centennial Park, this event features games for all ages, delicious BBQ, cultural activities, and plenty of opportunities to connect with fellow Sobans in a relaxed, family-friendly environment.",
+    fullDescription: "Our annual family picnic is a beloved tradition that brings together SOBA Calgary members and their families for a day of outdoor fun and fellowship. Set in the beautiful Centennial Park, this event features games for all ages, delicious BBQ, cultural activities, and plenty of opportunities to connect with fellow Sobans in a relaxed, family-friendly environment.",
     image: "/images/gallery/DSCF7024.jpg",
     type: "Social",
     featured: false,
@@ -133,7 +133,7 @@ const allEvents = [
       "5:00 PM - Group Photos & Awards",
       "6:00 PM - Cleanup & Departure"
     ],
-    contact: "social@sobaontario.org",
+    contact: "social@sobacalgary.org",
     registrationRequired: true,
     cost: "$15 per adult, $10 per child, Free for children under 5"
   },
@@ -146,8 +146,8 @@ const allEvents = [
     startTime: "11:30 AM",
     endTime: "1:30 PM",
     location: "Maria Goretti Parish, 717 Kennedy Rd, Scarborough, ON M1K 3N8",
-    description: "Join us for the Fraternity Weekend Celebration on Sunday August 4th 2025 at Maria Goretti Parish. Special SOBA participation includes choir support, thanksgiving mass offertory procession with song and dance, and post-Mass reception. 5 photos of SOBA Ontario will be featured in the church bulletin.",
-    fullDescription: "SOBA Ontario Fraternity Weekend Celebration culminates with a special Thanksgiving Mass at Maria Goretti Parish. This celebration includes coordinated participation with the church choir, a unique SOBA offertory procession with song and dance, and post-Mass fellowship. The fraternity weekend will be highlighted in the church's Sunday bulletin with 5 photos of SOBA Ontario, and copies will be available both printed and online.",
+    description: "Join us for the Fraternity Weekend Celebration on Sunday August 4th 2025 at Maria Goretti Parish. Special SOBA participation includes choir support, thanksgiving mass offertory procession with song and dance, and post-Mass reception. 5 photos of SOBA Calgary will be featured in the church bulletin.",
+    fullDescription: "SOBA Calgary Fraternity Weekend Celebration culminates with a special Thanksgiving Mass at Maria Goretti Parish. This celebration includes coordinated participation with the church choir, a unique SOBA offertory procession with song and dance, and post-Mass fellowship. The fraternity weekend will be highlighted in the church's Sunday bulletin with 5 photos of SOBA Calgary, and copies will be available both printed and online.",
     image: "/images/gallery/fraternity-week.jpg",
     type: "Fraternity",
     featured: true,
@@ -157,25 +157,25 @@ const allEvents = [
       "First Offertory - Members gather behind church during collection",
       "Special SOBA Offertory - Thanksgiving procession with song and dance to altar",
       "After Communion - Sing the St Joseph Song (second song after communion)",
-      "Church Bulletin - 5 SOBA Ontario photos featured with fraternity weekend highlight",
+      "Church Bulletin - 5 SOBA Calgary photos featured with fraternity weekend highlight",
       "Post-Mass Reception - Finger foods and soft drinks in the vestibule"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: true,
     cost: "Free - Donations welcome for church offertory"
   },
   // Past Events
   {
     id: 10,
-    title: "SOBA Ontario Volunteering Activities",
+    title: "SOBA Calgary Volunteering Activities",
     date: "June 1, 2024",
     dateISO: "2024-06-01",
     time: "Full Day Event",
     startTime: "9:00 AM",
     endTime: "6:00 PM",
     location: "Community Service Locations & 59 Carleton Pl Brampton",
-    description: "SOBA Ontario members participated in community volunteering activities followed by fellowship at Jackson's place in Brampton. A day of service and brotherhood.",
-    fullDescription: "SOBA Ontario organized a comprehensive day of community service and fellowship on June 1st, 2024. Members participated in various volunteering activities throughout the day, demonstrating our commitment to community service. The day concluded with fellowship and celebration at Jackson's place in Brampton, strengthening the bonds of brotherhood among our members.",
+    description: "SOBA Calgary members participated in community volunteering activities followed by fellowship at Jackson's place in Brampton. A day of service and brotherhood.",
+    fullDescription: "SOBA Calgary organized a comprehensive day of community service and fellowship on June 1st, 2024. Members participated in various volunteering activities throughout the day, demonstrating our commitment to community service. The day concluded with fellowship and celebration at Jackson's place in Brampton, strengthening the bonds of brotherhood among our members.",
     image: "/images/gallery/june-volunteer.jpg",
     type: "Volunteer",
     featured: false,
@@ -186,21 +186,21 @@ const allEvents = [
       "Location: 59 Carleton Pl Brampton",
       "Celebration of successful volunteer work and community impact"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
     cost: "Past Event"
   },
   {
     id: 11,
-    title: "SOBA Ontario Christmas Party",
+    title: "SOBA Calgary Christmas Party",
     date: "December 14, 2024",
     dateISO: "2024-12-14",
     time: "Evening Event",
     startTime: "6:00 PM",
     endTime: "11:00 PM",
     location: "TBA",
-    description: "SOBA Ontario celebrated the holiday season with our annual Christmas Party on December 14th, 2024. The event featured festive activities, quiz competitions with prizes for winners, and holiday fellowship among members.",
-    fullDescription: "SOBA Ontario's annual Christmas Party on December 14th, 2024 was a memorable celebration of the holiday season. The event brought together members and their families for an evening of festive activities, holiday traditions, and community fellowship. A highlight of the evening was the quiz competition where winners received special prizes, adding excitement and engagement to the celebration.",
+    description: "SOBA Calgary celebrated the holiday season with our annual Christmas Party on December 14th, 2024. The event featured festive activities, quiz competitions with prizes for winners, and holiday fellowship among members.",
+    fullDescription: "SOBA Calgary's annual Christmas Party on December 14th, 2024 was a memorable celebration of the holiday season. The event brought together members and their families for an evening of festive activities, holiday traditions, and community fellowship. A highlight of the evening was the quiz competition where winners received special prizes, adding excitement and engagement to the celebration.",
     image: "/images/gallery/christmas-2024.jpg",
     type: "Social",
     featured: false,
@@ -212,7 +212,7 @@ const allEvents = [
       "Traditional Christmas activities and games",
       "Prize distribution to quiz winners"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
     cost: "Past Event"
   },
@@ -226,12 +226,12 @@ const allEvents = [
     endTime: "11:00 PM",
     location: "Mississauga Convention Centre",
     description: "A wonderful evening of celebration with traditional dishes, music, and fellowship.",
-    fullDescription: "Our Christmas Celebration 2024 was a memorable evening that brought together the SOBA Ontario community to celebrate the holiday season. The event featured traditional dishes, live music, cultural performances, and a special recognition ceremony for outstanding community members.",
+    fullDescription: "Our Christmas Celebration 2024 was a memorable evening that brought together the SOBA Calgary community to celebrate the holiday season. The event featured traditional dishes, live music, cultural performances, and a special recognition ceremony for outstanding community members.",
     image: "/images/gallery/DSCF7024.jpg",
     type: "Social",
     featured: false,
     agenda: [],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
     cost: "Past Event"
   },
@@ -244,8 +244,8 @@ const allEvents = [
     startTime: "11:30 AM",
     endTime: "1:30 PM",
     location: "Maria Goretti Parish, 717 Kennedy Rd, Scarborough, ON M1K 3N8",
-    description: "SOBA Ontario participated in the Saint Joseph Feast Day Mass with special choir support, offertory procession with song and dance, and post-Mass reception.",
-    fullDescription: "SOBA Ontario participated in the Saint Joseph Feast Day Mass at Maria Goretti Parish. This special celebration included coordinated participation with the church choir, a unique SOBA offertory procession with song and dance, and post-Mass fellowship. This was an important spiritual gathering that honored our patron saint while strengthening our community bonds.",
+    description: "SOBA Calgary participated in the Saint Joseph Feast Day Mass with special choir support, offertory procession with song and dance, and post-Mass reception.",
+    fullDescription: "SOBA Calgary participated in the Saint Joseph Feast Day Mass at Maria Goretti Parish. This special celebration included coordinated participation with the church choir, a unique SOBA offertory procession with song and dance, and post-Mass fellowship. This was an important spiritual gathering that honored our patron saint while strengthening our community bonds.",
     image: "/images/gallery/st-joseph-feast-day.jpg",
     type: "Religious",
     featured: false,
@@ -257,7 +257,7 @@ const allEvents = [
       "After Communion - Sing the St Joseph Song (second song after communion)",
       "Post-Mass Reception - Finger foods and soft drinks in the vestibule"
     ],
-    contact: "events@sobaontario.org",
+    contact: "events@sobacalgary.org",
     registrationRequired: false,
     cost: "Past Event"
   },
@@ -271,7 +271,7 @@ const allEvents = [
     endTime: "10:00 PM",
     location: "Downtown Toronto",
     description: "Connect with fellow Sobans in various professional fields. Share experiences and explore collaboration opportunities.",
-    fullDescription: "Our Professional Networking Evening provided a platform for SOBA Ontario members to connect across various industries, share career experiences, and explore collaboration opportunities. The event featured industry-specific breakout sessions, mentorship matching, and presentations on professional development in the Canadian market.",
+    fullDescription: "Our Professional Networking Evening provided a platform for SOBA Calgary members to connect across various industries, share career experiences, and explore collaboration opportunities. The event featured industry-specific breakout sessions, mentorship matching, and presentations on professional development in the Canadian market.",
     image: "/images/gallery/DSCF7024.jpg",
     type: "Networking",
     featured: false,
@@ -284,7 +284,7 @@ const allEvents = [
       "9:45 PM - Open Networking & Refreshments",
       "10:00 PM - Event Conclusion"
     ],
-    contact: "professional@sobaontario.org",
+    contact: "professional@sobacalgary.org",
     registrationRequired: false,
     cost: "Past Event"
   }
@@ -302,13 +302,13 @@ export async function generateMetadata({ params }: EventPageProps): Promise<Meta
   
   if (!event) {
     return {
-      title: "Event Not Found - SOBA Ontario",
+      title: "Event Not Found - SOBA Calgary",
       description: "The requested event could not be found.",
     };
   }
 
   return {
-    title: `${event.title} - SOBA Ontario`,
+    title: `${event.title} - SOBA Calgary`,
     description: event.description,
   };
 }
@@ -322,7 +322,7 @@ export default async function EventDetailPage({ params }: EventPageProps) {
   }
 
   const isPastEvent = new Date(event.dateISO) < new Date();
-  const currentUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sobaontario.org'}/events/${id}`;
+  const currentUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://sobacalgary.org'}/events/${id}`;
 
   return (
     <main>

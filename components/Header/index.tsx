@@ -44,7 +44,7 @@ const Header = () => {
             <a href="/">
               <Image
                 src="/images/logo/logo.png"
-                alt="SOBA Ontario Logo"
+                alt="SOBA Calgary Logo"
                 width={150}
                 height={60}
                 className="w-auto h-12"
@@ -69,7 +69,7 @@ const Header = () => {
           <a href="/">
             <Image
               src="/images/logo/logo.png"
-              alt="SOBA Ontario Logo"
+              alt="SOBA Calgary Logo"
               width={150}
               height={60}
               className="w-auto h-12"

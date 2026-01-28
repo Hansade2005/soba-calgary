@@ -7,8 +7,8 @@ import { useSearchParams } from "next/navigation";
 
 // Note: Since we're using useSearchParams, we need to handle metadata differently
 // export const metadata: Metadata = {
-//   title: "Donation Success - SOBA Ontario",
-//   description: "Thank you for your generous donation to SOBA Ontario. Your contribution makes a difference in our community.",
+//   title: "Donation Success - SOBA Calgary",
+//   description: "Thank you for your generous donation to SOBA Calgary. Your contribution makes a difference in our community.",
 // };
 
 function DonationSuccessContent() {
@@ -179,7 +179,7 @@ function DonationSuccessContent() {
               href="/membership"
               className="rounded-full border border-stroke px-7.5 py-2.5 text-black duration-300 ease-in-out hover:border-primary hover:text-primary dark:border-strokedark dark:text-white dark:hover:border-primary dark:hover:text-primary"
             >
-              Join SOBA Ontario
+              Join SOBA Calgary
             </Link>
           </div>
         </div>

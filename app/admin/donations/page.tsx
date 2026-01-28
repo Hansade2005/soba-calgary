@@ -82,7 +82,7 @@ const AdminDonationsPage = () => {
             Donations Management
           </h1>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
-            Track and manage donations to SOBA Ontario
+            Track and manage donations to SOBA Calgary
           </p>
         </div>
       </div>

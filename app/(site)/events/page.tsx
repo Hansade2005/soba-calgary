@@ -3,19 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Events - SOBA Ontario",
-  description: "Stay updated with SOBA Ontario's upcoming events, community gatherings, and special occasions.",
+  title: "Events - SOBA Calgary",
+  description: "Stay updated with SOBA Calgary's upcoming events, community gatherings, and special occasions.",
 };
 
 const upcomingEvents = [
  
   {
     id: 1,
-    title: "SOBA Ontario Community Day 2025",
+    title: "SOBA Calgary Community Day 2025",
     date: "May 31, 2025",
     time: "9:30 AM - 12:30 PM",
     location: "FEED Scarborough",
-    description: "Saturday May 31st is SOBA Ontario Community Day. This year we will be helping out at FEED Scarborough from 9:30AM - 12:30PM. Stay tuned for more info on this.",
+    description: "Saturday May 31st is SOBA Calgary Community Day. This year we will be helping out at FEED Scarborough from 9:30AM - 12:30PM. Stay tuned for more info on this.",
     image: "/images/gallery/feed.jpg",
     type: "Community",
     featured: true,
@@ -37,11 +37,11 @@ const upcomingEvents = [
 const pastEvents = [
   {
     id: 10,
-    title: "SOBA Ontario Volunteering Activities",
+    title: "SOBA Calgary Volunteering Activities",
     date: "June 1, 2024",
     time: "Full Day Event",
     location: "Community Service Locations & 59 Carleton Pl Brampton",
-    description: "SOBA Ontario members participated in community volunteering activities followed by fellowship at Jackson's place in Brampton. A day of service and brotherhood.",
+    description: "SOBA Calgary members participated in community volunteering activities followed by fellowship at Jackson's place in Brampton. A day of service and brotherhood.",
     image: "/images/gallery/june-volunteer.jpg",
     type: "Volunteer",
   },
@@ -68,11 +68,11 @@ const pastEvents = [
   },
   {
     id: 11,
-    title: "SOBA Ontario Christmas Party",
+    title: "SOBA Calgary Christmas Party",
     date: "December 14, 2024",
     time: "Evening Event",
     location: "TBA",
-    description: "SOBA Ontario celebrated the holiday season with our annual Christmas Party on December 14th, 2024. The event featured festive activities, quiz competitions with prizes for winners, and holiday fellowship among members.",
+    description: "SOBA Calgary celebrated the holiday season with our annual Christmas Party on December 14th, 2024. The event featured festive activities, quiz competitions with prizes for winners, and holiday fellowship among members.",
     image: "/images/gallery/christmas-2024.jpg",
     type: "Social",
   },
@@ -82,7 +82,7 @@ const pastEvents = [
     date: "August 4, 2024",
     time: "11:30 AM",
     location: "Maria Goretti Parish, 717 Kennedy Rd, Scarborough, ON M1K 3N8",
-    description: "Join us for the Fraternity Weekend Celebration on Sunday August 4th 2024 at Maria Goretti Parish. Special SOBA participation includes choir support, thanksgiving mass offertory procession with song and dance, and post-Mass reception. 5 photos of SOBA Ontario will be featured in the church bulletin.",
+    description: "Join us for the Fraternity Weekend Celebration on Sunday August 4th 2024 at Maria Goretti Parish. Special SOBA participation includes choir support, thanksgiving mass offertory procession with song and dance, and post-Mass reception. 5 photos of SOBA Calgary will be featured in the church bulletin.",
     image: "/images/gallery/fraternity-week.jpg",
     type: "Fraternity",
   },
@@ -92,17 +92,17 @@ const pastEvents = [
     date: "March 23, 2024",
     time: "11:30 AM",
     location: "Maria Goretti Parish, Scarborough",
-    description: "SOBA Ontario participated in the Saint Joseph Feast Day Mass with special choir support, offertory procession with song and dance, and post-Mass reception.",
+    description: "SOBA Calgary participated in the Saint Joseph Feast Day Mass with special choir support, offertory procession with song and dance, and post-Mass reception.",
     image: "/images/gallery/st-joseph-feast-day.jpg",
     type: "Religious",
   },
   {
     id: 12,
-    title: "Soba Ontario General Assembly Meeting",
+    title: "Soba SOBA Calgary General Assembly Meeting",
     date: "April 26, 2024",
     time: "TBA",
-    location: "London, Ontario",
-    description: "General Assembly Meeting held in London, Ontario.",
+    location: "London, SOBA Calgary",
+    description: "General Assembly Meeting held in London, SOBA Calgary.",
     image: "/images/gallery/initial-launch.jpg",
     type: "Meeting",
   },
@@ -117,7 +117,7 @@ export default function EventsPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="text-center">
             <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              SOBA Ontario Events
+              SOBA Calgary Events
             </h1>
             <p className="mb-10 text-lg">
               Join us for community gatherings, networking events, and special celebrations

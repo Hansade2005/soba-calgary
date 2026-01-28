@@ -10,8 +10,8 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "SOBA Ontario - Saint Joseph's College Sasse Alumni Association",
-  description: "SOBA Ontario is a registered not-for-profit organization supporting Sasse College alumni in Ontario, Canada. Join our community of over 30 active members."
+  title: "SOBA Calgary - Saint Joseph's College Sasse Alumni Association",
+  description: "SOBA Calgary is a registered not-for-profit organization supporting Sasse College alumni in Calgary, Canada. Join our community of active members."
 };
 
 export default function Home() {

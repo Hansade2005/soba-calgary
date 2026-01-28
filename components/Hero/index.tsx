@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🎓 SOBA Ontario - Proud Past, Bright Future
+                🎓 SOBA Calgary - Proud Past, Bright Future
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 Saint Joseph's College Sasse {"   "}
@@ -27,9 +27,9 @@ const Hero = () => {
                 </span>
               </h1>
               <p>
-                SOBA Ontario is a registered not-for-profit organization supporting 
-                Sasse College alumni in Ontario, Canada. We encourage harmony and 
-                cooperation among Sobans, addressing members' social and economic needs 
+                SOBA Calgary is a registered not-for-profit organization supporting
+                Sasse College alumni in Calgary, Canada. We encourage harmony and
+                cooperation among Sobans, addressing members' social and economic needs
                 while facilitating integration into the Canadian community.
               </p>
 
@@ -39,7 +39,7 @@ const Hero = () => {
                     href="/membership"
                     className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                   >
-                    Join SOBA Ontario
+                    Join SOBA Calgary
                   </Link>
                   <Link
                     href="/donations"
@@ -50,7 +50,7 @@ const Hero = () => {
                 </div>
 
                 <p className="mt-5 text-black dark:text-white">
-                  Membership fee: $100 • Over 30 active members across Ontario
+                  Membership fee: $100 • Active members across Calgary
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Hero = () => {
                   <Image
                     className="shadow-solid-l rounded-lg"
                     src="/images/gallery/DSCF8816.jpg"
-                    alt="SOBA Ontario Community"
+                    alt="SOBA Calgary Community"
                     fill
                     style={{ objectFit: "cover" }}
                   />

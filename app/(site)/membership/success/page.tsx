@@ -7,8 +7,8 @@ import { useSearchParams } from "next/navigation";
 
 // Note: Since we're using useSearchParams, we need to handle metadata differently
 // export const metadata: Metadata = {
-//   title: "Membership Success - SOBA Ontario",
-//   description: "Welcome to SOBA Ontario! Your membership registration has been completed successfully.",
+//   title: "Membership Success - SOBA Calgary",
+//   description: "Welcome to SOBA Calgary! Your membership registration has been completed successfully.",
 // };
 
 function MembershipSuccessContent() {
@@ -131,12 +131,12 @@ function MembershipSuccessContent() {
           </div>
           
           <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-            Welcome to SOBA Ontario! 🎉
+            Welcome to SOBA Calgary! 🎉
           </h1>
           
           <p className="mb-8 text-lg text-gray-600 dark:text-gray-400">
             Your membership registration has been completed successfully. 
-            You are now part of our thriving community of Sasse College alumni in Ontario.
+            You are now part of our thriving community of Sasse College alumni in SOBA Calgary.
           </p>
 
           <div className="mx-auto mb-10 max-w-2xl rounded-lg bg-white p-8 shadow-solid-8 dark:bg-blacksection">
@@ -157,7 +157,7 @@ function MembershipSuccessContent() {
               
               <div className="flex items-start space-x-3">
                 <span className="text-primary">🤝</span>
-                <p>A SOBA Ontario representative will contact you within 48 hours to welcome you to the community.</p>
+                <p>A SOBA Calgary representative will contact you within 48 hours to welcome you to the community.</p>
               </div>
               
               <div className="flex items-start space-x-3">

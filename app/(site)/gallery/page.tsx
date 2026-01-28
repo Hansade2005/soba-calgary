@@ -2,69 +2,69 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Gallery - SOBA Ontario",
-  description: "Explore photos from SOBA Ontario events, gatherings, and community activities.",
+  title: "Gallery - SOBA Calgary",
+  description: "Explore photos from SOBA Calgary events, gatherings, and community activities.",
 };
 
 const galleryImages = [
   {
     src: "/images/gallery/new/1.jpg",
-    alt: "SOBA Ontario members volunteering at Feed Scarborough",
+    alt: "SOBA Calgary members volunteering at Feed Scarborough",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/new/2.jpg",
-    alt: "SOBA Ontario members helping at Feed Scarborough",
+    alt: "SOBA Calgary members helping at Feed Scarborough",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/new/3.jpg",
-    alt: "SOBA Ontario members during Feed Scarborough volunteering",
+    alt: "SOBA Calgary members during Feed Scarborough volunteering",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/new/4.jpg",
-    alt: "SOBA Ontario members serving at Feed Scarborough",
+    alt: "SOBA Calgary members serving at Feed Scarborough",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/new/5.jpg",
-    alt: "SOBA Ontario members volunteering at Feed Scarborough",
+    alt: "SOBA Calgary members volunteering at Feed Scarborough",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/new/6.jpg",
-    alt: "SOBA Ontario members helping at Feed Scarborough",
+    alt: "SOBA Calgary members helping at Feed Scarborough",
     title: "Volunteering at Feed Scarborough - May 31st, 2024",
   },
   {
     src: "/images/gallery/Fraternity Weekend.jpg",
-    alt: "SOBA Ontario members during offertory procession on their Fraternity Weekend celebrations",
+    alt: "SOBA Calgary members during offertory procession on their Fraternity Weekend celebrations",
     title: "Fraternity Weekend - August 2024",
   },
   {
     src: "/images/gallery/st-joseph-feast-day.jpg",
-    alt: "SOBA Ontario members during singing during Mass as they Celebrate St Joseph Feast Day",
+    alt: "SOBA Calgary members during singing during Mass as they Celebrate St Joseph Feast Day",
     title: "St Joseph Feast Day - March 2025",
   },
   {
     src: "/images/gallery/DSCF8816.jpg",
-    alt: "SOBA Ontario Campus Surfing",
+    alt: "SOBA Calgary Campus Surfing",
     title: "Campus Surfing",
   },
   {
     src: "/images/gallery/DSCF7024.jpg",
-    alt: "SOBA Ontario Members",
+    alt: "SOBA Calgary Members",
     title: "Sasse Student Studying",
   },
   {
     src: "/images/gallery/IMG_20141211_173823.jpg",
-    alt: "SOBA Ontario Campus open visit",
+    alt: "SOBA Calgary Campus open visit",
     title: "Campus open visit",
   },
   {
     src: "/images/gallery/IMG_0305.jpg",
-    alt: "SOBA Ontario School Campus",
+    alt: "SOBA Calgary School Campus",
     title: "Our School Campus",
   },
 ];
@@ -76,7 +76,7 @@ export default function GalleryPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="text-center">
             <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              SOBA Ontario Gallery
+              SOBA Calgary Gallery
             </h1>
             <p className="mb-10 text-lg text-gray-600 dark:text-gray-400">
               Capturing moments from our community events, celebrations, and gatherings
@@ -116,7 +116,7 @@ export default function GalleryPage() {
                 Share Your Moments
               </h2>
               <p className="mb-6 text-gray-600 dark:text-gray-400">
-                Have photos from SOBA Ontario events? We'd love to feature them in our gallery!
+                Have photos from SOBA Calgary events? We'd love to feature them in our gallery!
               </p>
               <a
                 href="/contact"

@@ -141,7 +141,7 @@ const AdminMembersPage = () => {
             Members Management
           </h1>
           <p className="mt-2 text-gray-600 dark:text-gray-400">
-            Manage SOBA Ontario members
+            Manage SOBA Calgary members
           </p>
         </div>
         <Link

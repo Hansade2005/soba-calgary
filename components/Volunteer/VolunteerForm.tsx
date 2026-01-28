@@ -282,7 +282,7 @@ const VolunteerForm = () => {
 
           <div className="mb-6">
             <label className="mb-2 block text-sm font-medium text-black dark:text-white">
-              Why do you want to volunteer with SOBA Ontario?
+              Why do you want to volunteer with SOBA Calgary?
             </label>
             <textarea
               name="motivation"
@@ -320,7 +320,7 @@ const VolunteerForm = () => {
               className="mr-3 h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
             />
             <span className="text-sm text-black dark:text-white">
-              I am currently a SOBA Ontario member
+              I am currently a SOBA Calgary member
             </span>
           </label>
         </div>

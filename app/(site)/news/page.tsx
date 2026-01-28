@@ -7,7 +7,7 @@ import { useSearchParams } from "next/navigation";
 const newsArticles = [
   {
     id: 1,
-    title: "SOBA Ontario Community Day 2025",
+    title: "SOBA Calgary Community Day 2025",
     excerpt: "Join us for our annual Community Day on Saturday, May 31st, 2025. A day of celebration, networking, and community building.",
     date: "May 27, 2025",
     image: "/images/gallery/DSCF8816.jpg",
@@ -17,8 +17,8 @@ const newsArticles = [
   },
   {
     id: 3,
-    title: "SOBA Ontario Initial Launch",
-    excerpt: "SOBA Ontario officially launched its website on May 27, 2025",
+    title: "SOBA Calgary Initial Launch",
+    excerpt: "SOBA Calgary officially launched its website on May 27, 2025",
     date: "May 27, 2025",
     image: "/images/gallery/initial-launch.jpg",
     category: "Community",
@@ -60,7 +60,7 @@ function NewsContent() {
               News & Updates
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              Stay connected with the latest happenings in the SOBA Ontario community
+              Stay connected with the latest happenings in the SOBA Calgary community
             </p>
           </div>
 

@@ -4,8 +4,8 @@ import Link from "next/link";
 import VolunteerForm from "@/components/Volunteer/VolunteerForm";
 
 export const metadata: Metadata = {
-  title: "Volunteer Programs - SOBA Ontario",
-  description: "Join SOBA Ontario's volunteer programs and make a difference in our community. Discover opportunities to support education, community development, and member assistance.",
+  title: "Volunteer Programs - SOBA Calgary",
+  description: "Join SOBA Calgary's volunteer programs and make a difference in our community. Discover opportunities to support education, community development, and member assistance.",
 };
 
 export default function VolunteerPage() {
@@ -19,7 +19,7 @@ export default function VolunteerPage() {
               Volunteer Programs
             </h1>
             <p className="mb-10 text-lg">
-              Make a meaningful impact in our community through SOBA Ontario's volunteer initiatives
+              Make a meaningful impact in our community through SOBA Calgary's volunteer initiatives
             </p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function VolunteerPage() {
               Volunteer Opportunities
             </h2>
             <p className="mx-auto max-w-3xl">
-              Join our dedicated volunteers in making a positive impact across Ontario. 
+              Join our dedicated volunteers in making a positive impact across SOBA Calgary. 
               Every contribution matters in building stronger communities.
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function VolunteerPage() {
                   Event Organization
                 </h3>
                 <p className="mb-4 text-gray-600 dark:text-gray-400">
-                  Help plan and execute SOBA Ontario events, from AGMs to family picnics 
+                  Help plan and execute SOBA Calgary events, from AGMs to family picnics 
                   and networking sessions.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -173,7 +173,7 @@ export default function VolunteerPage() {
                   Communications
                 </h3>
                 <p className="mb-4 text-gray-600 dark:text-gray-400">
-                  Help spread the word about SOBA Ontario's mission and activities 
+                  Help spread the word about SOBA Calgary's mission and activities 
                   through various communication channels.
                 </p>
                 <ul className="space-y-2 text-sm">
@@ -211,7 +211,7 @@ export default function VolunteerPage() {
                 Contact Us
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
-                Reach out to us at info@sobaontario.org to express your interest 
+                Reach out to us at info@sobacalgary.org to express your interest 
                 in volunteering and learn about current opportunities.
               </p>
             </div>

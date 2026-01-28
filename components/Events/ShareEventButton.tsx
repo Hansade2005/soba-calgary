@@ -46,8 +46,8 @@ const ShareEventButton: React.FC<ShareEventButtonProps> = ({
   };
 
   const shareViaEmail = () => {
-    const subject = encodeURIComponent(`SOBA Ontario Event: ${eventTitle}`);
-    const body = encodeURIComponent(`I thought you might be interested in this SOBA Ontario event:\n\n${eventTitle}\n\nLearn more: ${eventUrl}`);
+    const subject = encodeURIComponent(`SOBA Calgary Event: ${eventTitle}`);
+    const body = encodeURIComponent(`I thought you might be interested in this SOBA Calgary event:\n\n${eventTitle}\n\nLearn more: ${eventUrl}`);
     window.location.href = `mailto:?subject=${subject}&body=${body}`;
     setIsOpen(false);
   };
