@@ -53,7 +53,7 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_your_stripe_publishable_key_here"
 All three payment types in your application now work without webhooks:
 
 1. **Donations** - Community support donations with category selection
-2. **Memberships** - SOBA Ontario membership registration with $100 fee
+2. **Memberships** - SOBA Calgary membership registration with $100 fee
 3. **Store Orders** - Merchandise purchases with shipping to Canada
 
 ## Benefits of This Approach

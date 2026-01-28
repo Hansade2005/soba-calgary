@@ -1,6 +1,6 @@
-# SOBA Ontario Website
+# SOBA Calgary Website
 
-The official website for SOBA Ontario (Saint Joseph's College Sasse Alumni Association), a registered not-for-profit organization supporting Sasse College alumni in Ontario, Canada.
+The official website for SOBA Calgary (Saint Joseph's College Sasse Alumni Association), a registered not-for-profit organization supporting Sasse College alumni in Calgary, Canada.
 
 ## Features
 
@@ -35,7 +35,7 @@ The official website for SOBA Ontario (Saint Joseph's College Sasse Alumni Assoc
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd soba-ontario-website
+cd soba-calgary-website
 ```
 
 2. Install dependencies:
@@ -56,7 +56,7 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key_here"
 STRIPE_WEBHOOK_SECRET="your_stripe_webhook_secret_here"
 
 # App
-NEXT_PUBLIC_APP_URL="https://www.sobaontario.org"
+NEXT_PUBLIC_APP_URL="https://www.sobacalgary.org"
 ```
 
 4. Generate and run database migrations:
@@ -80,7 +80,7 @@ The application uses the following main tables:
 - **donations**: Donation records and payment tracking
 - **events**: Community events and activities
 - **news**: News articles and announcements
-- **store_items**: SOBA Ontario merchandise
+- **store_items**: SOBA Calgary merchandise
 
 ## Stripe Integration
 
@@ -137,7 +137,7 @@ pnpm start
 ## SOBA Ontario Information
 
 ### Mission
-We encourage harmony and cooperation among Sobans in Ontario, addressing members' social and economic needs while facilitating integration into the Canadian community.
+We encourage harmony and cooperation among Sobans in Calgary, addressing members' social and economic needs while facilitating integration into the Canadian community.
 
 ### Core Values
 - Integrity
@@ -161,16 +161,16 @@ We encourage harmony and cooperation among Sobans in Ontario, addressing members
 - DHR (Diaspora Home Return) enrollment
 
 ### Contact Information
-- **Address**: 46 Olde town Road, Brampton, ON, L6X 4T8
-- **Phone**: 226-606-0197
-- **Website**: www.sobaontario.org
-- **Facebook**: https://www.facebook.com/profile.php?id=100077660994849
-- **Twitter**: @SobaOntario
+- **Address**: 105 17 Ave SW, Calgary, AB T2S 0A2
+- **Phone**: 403-555-1234
+- **Website**: www.sobacalgary.org
+- **Facebook**: https://www.facebook.com/sobacalgary
+- **Twitter**: @SobaCalgary
 
 ## Contributing
 
-This website is maintained by SOBA Ontario. For contributions or issues, please contact the organization directly.
+This website is maintained by SOBA Calgary. For contributions or issues, please contact the organization directly.
 
 ## License
 
-© 2025 SOBA Ontario. All rights reserved.
+© 2025 SOBA Calgary. All rights reserved.

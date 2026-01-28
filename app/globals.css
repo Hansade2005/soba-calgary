@@ -19,8 +19,10 @@
   --color-black: #181c31;
   --color-blackho: #2c3149;
   --color-blacksection: #1c2136;
-  --color-primary: #006bff;
-  --color-primaryho: #0063ec;
+  --color-primary: #1e3a8a; /* Navy Blue */
+  --color-primaryho: #1e40af; /* Slightly lighter navy blue */
+  --color-secondary: #dc2626; /* Red */
+  --color-secondaryho: #b91c1c; /* Darker red */
   --color-meta: #20c5a8;
   --color-waterloo: #757693;
   --color-manatee: #999aa1;

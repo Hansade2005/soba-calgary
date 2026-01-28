@@ -1,6 +1,6 @@
 # ✅ Payment Setup Complete - Webhook-Free Implementation with Interac Support
 
-Your SOBA Ontario website now supports **complete payment processing using Stripe with both Card and Interac e-Transfer payments** - no webhooks required!
+Your SOBA Calgary website now supports **complete payment processing using Stripe with both Card and Interac e-Transfer payments** - no webhooks required!
 
 ## 🎉 What's Been Implemented
 
@@ -54,7 +54,7 @@ Your SOBA Ontario website now supports **complete payment processing using Strip
 ### What is Interac e-Transfer?
 Interac e-Transfer is Canada's most trusted digital money transfer service, allowing secure payments directly from Canadian bank accounts using just an email address.
 
-### Benefits for SOBA Ontario:
+### Benefits for SOBA Calgary:
 - **Lower Transaction Fees**: Significantly cheaper than credit card processing
 - **Faster Settlement**: Real-time transfers with immediate confirmation
 - **Higher Limits**: Support for larger donations and payments
@@ -194,7 +194,7 @@ Each payment type updates the appropriate database table:
 
 ## 💰 Cost Savings with Interac
 
-### Estimated Savings for SOBA Ontario:
+### Estimated Savings for SOBA Calgary:
 
 **Typical Credit Card Processing:**
 - Rate: 2.9% + $0.30 per transaction
@@ -241,7 +241,7 @@ Each payment type updates the appropriate database table:
 
 ## 📞 Support
 
-Your payment system now supports both traditional card payments and Interac e-Transfer, providing Canadian users with their preferred payment method while potentially reducing transaction costs for SOBA Ontario.
+Your payment system now supports both traditional card payments and Interac e-Transfer, providing Canadian users with their preferred payment method while potentially reducing transaction costs for SOBA Calgary.
 
 **Payment Methods Supported:**
 - ✅ Credit/Debit Cards (Visa, Mastercard, American Express)

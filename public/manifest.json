@@ -1,7 +1,7 @@
 {
-  "name": "SOBA Ontario - Sasse Old Boys Association",
-  "short_name": "SOBA Ontario",
-  "description": "The official website of SOBA Ontario, connecting Sasse Old Boys in Ontario, Canada.",
+  "name": "SOBA Calgary - Sasse Old Boys Association",
+  "short_name": "SOBA Calgary",
+  "description": "The official website of SOBA Calgary, connecting Sasse Old Boys in Calgary, Canada.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -27,5 +27,5 @@
   "categories": ["education", "social", "community"],
   "lang": "en-CA",
   "scope": "/",
-  "id": "soba-ontario"
+  "id": "soba-calgary"
 } 

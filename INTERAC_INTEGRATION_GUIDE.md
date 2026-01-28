@@ -1,8 +1,8 @@
-# 🇨🇦 Interac e-Transfer Integration Guide for SOBA Ontario
+# 🇨🇦 Interac e-Transfer Integration Guide for SOBA Calgary
 
 ## Overview
 
-SOBA Ontario now supports **Interac e-Transfer** payments alongside traditional credit/debit cards, giving Canadian users their preferred payment method while potentially reducing transaction costs by 60-85%.
+SOBA Calgary now supports **Interac e-Transfer** payments alongside traditional credit/debit cards, giving Canadian users their preferred payment method while potentially reducing transaction costs by 60-85%.
 
 ## 🎯 What is Interac e-Transfer?
 
@@ -21,7 +21,7 @@ Interac e-Transfer is Canada's most trusted digital money transfer service:
 - **Savings**: 60-85% reduction in payment processing fees
 
 ### Annual Savings Projection:
-If SOBA Ontario processes $50,000 annually in donations:
+If SOBA Calgary processes $50,000 annually in donations:
 - **Card fees**: ~$1,600
 - **Interac fees**: ~$400
 - **Annual savings**: ~$1,200+
@@ -316,7 +316,7 @@ const handlePaymentError = (error: any) => {
 
 ## 🎉 Ready to Go Live!
 
-Your SOBA Ontario website now supports both traditional card payments and modern Interac e-Transfer, positioning the organization to:
+Your SOBA Calgary website now supports both traditional card payments and modern Interac e-Transfer, positioning the organization to:
 
 - **Reduce payment processing costs**
 - **Provide preferred payment options for Canadians**
