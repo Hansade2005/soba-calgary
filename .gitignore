@@ -32,5 +32,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# development tools and streaming servers
+stream-server.mjs
+claude-stream.mjs
+
 # vercel
 .vercel
