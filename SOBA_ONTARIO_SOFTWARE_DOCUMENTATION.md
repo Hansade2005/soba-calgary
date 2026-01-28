@@ -1,17 +1,17 @@
-# 📚 SOBA Ontario Website - Comprehensive Software Documentation
+# 📚 SOBA Calgary Website - Comprehensive Software Documentation
 
 ## 🏢 Project Overview
 
-**Project Name**: SOBA Ontario Website  
-**Organization**: SOBA Ontario (Saint Joseph's College Sasse Alumni Association)  
-**Website**: www.sobaontario.org  
-**Version**: 1.0.0  
-**Framework**: Next.js 15.1.6 with React 19  
-**Launch Date**: May 23 – May 31, 2025  
-**License**: © 2025 SOBA Ontario. All rights reserved.
+**Project Name**: SOBA Calgary Website
+**Organization**: SOBA Calgary (Saint Joseph's College Sasse Alumni Association)
+**Website**: www.sobacalgary.org
+**Version**: 1.0.0
+**Framework**: Next.js 15.1.6 with React 19
+**Launch Date**: May 23 – May 31, 2025
+**License**: © 2025 SOBA Calgary. All rights reserved.
 
 ### Mission Statement
-SOBA Ontario is a registered not-for-profit organization supporting Sasse College alumni in Ontario, Canada. We encourage harmony and cooperation among Sobans in Ontario, addressing members' social and economic needs while facilitating integration into the Canadian community.
+SOBA Calgary is a registered not-for-profit organization supporting Sasse College alumni in Calgary, Canada. We encourage harmony and cooperation among Sobans in Calgary, addressing members' social and economic needs while facilitating integration into the Canadian community.
 
 ---
 
@@ -621,7 +621,7 @@ interface PaymentMethodSelectorProps {
 #### Tailwind CSS Classes
 ```css
 /* Primary Colors */
-.text-primary        // SOBA Ontario brand color
+.text-primary        // SOBA Calgary brand color
 .bg-primary         // Primary background
 .border-primary     // Primary border
 
@@ -1091,7 +1091,7 @@ chore: maintenance tasks
 
 ### Social Media Presence
 - **Facebook**: https://www.facebook.com/profile.php?id=100077660994849
-- **Twitter**: @SobaOntario
+- **Twitter**: @SobaCalgary
 
 ### Maintenance Schedule
 
@@ -1131,11 +1131,11 @@ chore: maintenance tasks
 
 ## 🎉 Conclusion
 
-The SOBA Ontario website represents a comprehensive digital platform that serves the needs of Sasse College alumni in Ontario, Canada. Built with modern web technologies and following best practices, the system provides a robust foundation for community building, member management, and organizational growth.
+The SOBA Calgary website represents a comprehensive digital platform that serves the needs of Sasse College alumni in Calgary, Canada. Built with modern web technologies and following best practices, the system provides a robust foundation for community building, member management, and organizational growth.
 
 The platform successfully integrates multiple complex systems including payment processing, user authentication, content management, and e-commerce functionality while maintaining security, performance, and user experience standards.
 
-This documentation serves as a complete reference for developers, administrators, and stakeholders working with the SOBA Ontario website system.
+This documentation serves as a complete reference for developers, administrators, and stakeholders working with the SOBA Calgary website system.
 
 ---
 

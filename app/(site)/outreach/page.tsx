@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Community Outreach - SOBA Ontario",
-  description: "Learn about SOBA Ontario's community outreach programs and how we support both local and international communities.",
+  title: "Community Outreach - SOBA Calgary",
+  description: "Learn about SOBA Calgary's community outreach programs and how we support both local and international communities.",
 };
 
 const outreachPrograms = [
@@ -65,7 +65,7 @@ const outreachPrograms = [
 const partnerships = [
   {
     name: "Local Schools",
-    description: "Partnering with schools in Ontario to support Cameroonian-Canadian students",
+    description: "Partnering with schools in SOBA Calgary to support Cameroonian-Canadian students",
     logo: "🏫"
   },
   {
@@ -95,7 +95,7 @@ export default function OutreachPage() {
               Community Outreach
             </h1>
             <p className="mb-10 text-lg">
-              Making a positive impact in communities across Ontario and Cameroon through 
+              Making a positive impact in communities across SOBA Calgary and Cameroon through 
               collaborative programs and sustainable initiatives
             </p>
           </div>

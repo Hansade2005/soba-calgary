@@ -1,4 +1,4 @@
-# SOBA Ontario Website Setup Guide
+# SOBA Calgary Website Setup Guide
 
 ## Quick Setup
 
@@ -52,7 +52,7 @@ The application will be available at http://localhost:3000
 
 ## Features Implemented
 
-✅ **Homepage** - SOBA Ontario landing page with hero, about, and features
+✅ **Homepage** - SOBA Calgary landing page with hero, about, and features
 ✅ **Membership Registration** - Complete form with Stripe payment ($100 CAD)
 ✅ **Donation System** - Multi-category donations with flexible amounts
 ✅ **Database Integration** - Neon PostgreSQL with Drizzle ORM
@@ -83,7 +83,7 @@ The application includes tables for:
 - `donations` - Donation records
 - `events` - Community events
 - `news` - News articles
-- `store_items` - SOBA Ontario merchandise
+- `store_items` - SOBA Calgary merchandise
 
 ## Troubleshooting
 
@@ -115,4 +115,4 @@ If you encounter hydration errors, ensure:
 
 ## Contact
 
-For technical support or questions about the SOBA Ontario website, contact the development team. 
+For technical support or questions about the SOBA Calgary website, contact the development team. 

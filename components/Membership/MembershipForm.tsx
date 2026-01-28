@@ -289,11 +289,11 @@ const MembershipForm = () => {
         disabled={isLoading}
         className="w-full rounded-lg bg-primary px-6 py-3 text-white transition-colors hover:bg-primary/90 disabled:opacity-50"
       >
-        {isLoading ? "Processing..." : `Pay $100 via ${paymentMethod === "interac" ? "Interac e-Transfer" : "Card"} & Join SOBA Ontario`}
+        {isLoading ? "Processing..." : `Pay $100 via ${paymentMethod === "interac" ? "Interac e-Transfer" : "Card"} & Join SOBA Calgary`}
       </button>
 
       <p className="text-sm text-gray-600 dark:text-gray-400">
-        By submitting this form, you agree to pay the $100 membership fee and join SOBA Ontario.
+        By submitting this form, you agree to pay the $100 membership fee and join SOBA Calgary.
         {paymentMethod === "interac" ? 
           " You'll be redirected to your bank's secure login to complete the Interac e-Transfer." :
           " You will be redirected to Stripe for secure payment processing."

@@ -13,9 +13,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOBA ONTARIO BENEFITS",
+              title: "SOBA CALGARY BENEFITS",
               subtitle: "What We Offer Our Members",
-              description: `SOBA Ontario provides comprehensive support and benefits to our members, 
+              description: `SOBA Calgary provides comprehensive support and benefits to our members,
               fostering community, professional growth, and lifelong connections among Sasse College alumni.`,
             }}
           />

@@ -26,8 +26,8 @@ export default function ShopPage() {
   const sampleItems: StoreItem[] = [
     {
       id: "1",
-      name: "SOBA Ontario Coat of Arms",
-      description: "Official SOBA Ontario coat of arms - perfect for display in your home or office",
+      name: "SOBA Calgary Coat of Arms",
+      description: "Official SOBA Calgary coat of arms - perfect for display in your home or office",
       price: "45.00",
       imageUrl: "/images/shop/badge.png",
       category: "Coat of Arms",
@@ -35,8 +35,8 @@ export default function ShopPage() {
     },
     {
       id: "2", 
-      name: "SOBA Ontario Tie - Red",
-      description: "Premium quality red tie with SOBA Ontario emblem",
+      name: "SOBA Calgary Tie - Red",
+      description: "Premium quality red tie with SOBA Calgary emblem",
       price: "35.00",
       imageUrl: "/images/shop/tie.jpeg",
       category: "Ties",
@@ -44,8 +44,8 @@ export default function ShopPage() {
     },
     {
       id: "3",
-      name: "SOBA Ontario Dress Shirt",
-      description: "High-quality dress shirt with embroidered SOBA Ontario logo",
+      name: "SOBA Calgary Dress Shirt",
+      description: "High-quality dress shirt with embroidered SOBA Calgary logo",
       price: "55.00",
       imageUrl: "/images/shop/shirt.png",
       category: "Shirts",
@@ -53,8 +53,8 @@ export default function ShopPage() {
     },
     {
       id: "4",
-      name: "SOBA Ontario Badge",
-      description: "Official SOBA Ontario badge for formal occasions",
+      name: "SOBA Calgary Badge",
+      description: "Official SOBA Calgary badge for formal occasions",
       price: "25.00",
       imageUrl: "/images/shop/badge.png",
       category: "Badges",
@@ -62,8 +62,8 @@ export default function ShopPage() {
     },
     {
       id: "5",
-      name: "SOBA Ontario T-Shirt",
-      description: "Comfortable cotton t-shirt with SOBA Ontario design",
+      name: "SOBA Calgary T-Shirt",
+      description: "Comfortable cotton t-shirt with SOBA Calgary design",
       price: "30.00",
       imageUrl: "/images/shop/shirt.png",
       category: "T-shirts",
@@ -71,7 +71,7 @@ export default function ShopPage() {
     },
     {
       id: "6",
-      name: "SOBA Ontario Polo Shirt",
+      name: "SOBA Calgary Polo Shirt",
       description: "Premium polo shirt with embroidered logo",
       price: "40.00",
       imageUrl: "/images/shop/polo.png",
@@ -80,8 +80,8 @@ export default function ShopPage() {
     },
     {
       id: "7",
-      name: "SOBA Ontario Mug",
-      description: "Ceramic mug with SOBA Ontario logo - perfect for your morning coffee",
+      name: "SOBA Calgary Mug",
+      description: "Ceramic mug with SOBA Calgary logo - perfect for your morning coffee",
       price: "20.00",
       imageUrl: "/images/shop/cup.png",
       category: "Branded Merchandise",
@@ -89,8 +89,8 @@ export default function ShopPage() {
     },
     {
       id: "8",
-      name: "SOBA Ontario Keychain",
-      description: "Metal keychain with SOBA Ontario emblem",
+      name: "SOBA Calgary Keychain",
+      description: "Metal keychain with SOBA Calgary emblem",
       price: "15.00",
       imageUrl: "/images/shop/keychain.png",
       category: "Branded Merchandise",
@@ -158,10 +158,10 @@ export default function ShopPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="text-center">
             <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              SOBA Ontario Store
+              SOBA Calgary Store
             </h1>
             <p className="mb-10 text-lg">
-              Shop official SOBA Ontario merchandise and support our community
+              Shop official SOBA Calgary merchandise and support our community
             </p>
             
             {/* Cart Button */}
@@ -244,7 +244,7 @@ export default function ShopPage() {
             </h2>
             <div className="mx-auto max-w-3xl">
               <p className="mb-6 text-gray-600 dark:text-gray-400">
-                The SOBA Ontario Store offers high-quality merchandise that celebrates our shared heritage 
+                The SOBA Calgary Store offers high-quality merchandise that celebrates our shared heritage 
                 and supports our community initiatives. Every purchase helps fund our programs and activities.
               </p>
               
@@ -273,7 +273,7 @@ export default function ShopPage() {
                   </div>
                   <h3 className="mb-2 font-semibold text-black dark:text-white">Support Community</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Proceeds support SOBA Ontario programs and initiatives
+                    Proceeds support SOBA Calgary programs and initiatives
                   </p>
                 </div>
                 
@@ -287,7 +287,7 @@ export default function ShopPage() {
                   </div>
                   <h3 className="mb-2 font-semibold text-black dark:text-white">Fast Shipping</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Quick delivery across Ontario and Canada
+                    Quick delivery across SOBA Calgary and Canada
                   </p>
                 </div>
               </div>

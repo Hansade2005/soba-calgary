@@ -29,10 +29,10 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join SOBA Ontario Today & Strengthen Our Community
+                Join SOBA Calgary Today & Strengthen Our Community
               </h2>
               <p>
-                Connect with fellow Sasse College alumni across Ontario. Together, we support 
+                Connect with fellow Sasse College alumni across SOBA Calgary. Together, we support 
                 education, foster brotherhood, and make a positive impact in our communities. 
                 Your membership helps us continue our mission of unity and service.
               </p>

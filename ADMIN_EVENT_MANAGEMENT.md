@@ -1,7 +1,7 @@
 # Event Registration Management - Admin Guide
 
 ## Overview
-The Event Registration Management system allows administrators to view, manage, and track all event registrations from SOBA Ontario members.
+The Event Registration Management system allows administrators to view, manage, and track all event registrations from SOBA Calgary members.
 
 ## Accessing the System
 1. Login as an admin user

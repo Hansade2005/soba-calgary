@@ -13,14 +13,14 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-02.svg",
     title: "Professional Network",
     description:
-      "Connect with fellow Sasse alumni across Ontario for career opportunities and business partnerships.",
+      "Connect with fellow Sasse alumni across Calgary for career opportunities and business partnerships.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
     title: "Integration Services",
     description:
-      "Helping new Sobans integrate into Canadian life with mentorship and community guidance.",
+      "Helping new Sobans integrate into Calgary life with mentorship and community guidance.",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-05.svg",
     title: "Cultural Events",
     description:
-      "Regular community gatherings, cultural celebrations, and networking events throughout Ontario.",
+      "Regular community gatherings, cultural celebrations, and networking events throughout Calgary.",
   },
   {
     id: 6,

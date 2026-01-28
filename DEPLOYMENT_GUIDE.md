@@ -1,6 +1,6 @@
-# 🚀 Deployment Guide - SOBA Ontario Website
+# 🚀 Deployment Guide - SOBA Calgary Website
 
-This guide covers deploying your SOBA Ontario website to Vercel with proper database migration setup.
+This guide covers deploying your SOBA Calgary website to Vercel with proper database migration setup.
 
 ## 🗄️ Database Migration Strategy
 

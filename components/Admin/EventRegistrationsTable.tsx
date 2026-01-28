@@ -244,9 +244,9 @@ const EventRegistrationsTable: React.FC = () => {
                 className="rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-600 dark:bg-blacksection"
               >
                 <option value="">All Events</option>
-                <option value="1">SOBA Ontario Community Day 2025</option>
+                <option value="1">SOBA Calgary Community Day 2025</option>
                 <option value="2">Annual General Meeting 2025</option>
-                <option value="3">SOBA Ontario Family Picnic</option>
+                <option value="3">SOBA Calgary Family Picnic</option>
               </select>
               <select 
                 value={filters.status}

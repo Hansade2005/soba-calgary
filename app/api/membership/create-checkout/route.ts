@@ -64,8 +64,8 @@ export async function POST(request: NextRequest) {
           price_data: {
             currency: "cad",
             product_data: {
-              name: "SOBA Ontario Membership",
-              description: "One-time registration fee for SOBA Ontario membership",
+              name: "SOBA Calgary Membership",
+              description: "One-time registration fee for SOBA Calgary membership",
             },
             unit_amount: 10000, // $100.00 in cents
           },

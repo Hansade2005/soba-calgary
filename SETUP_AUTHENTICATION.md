@@ -1,6 +1,6 @@
-# Authentication System Setup - SOBA Ontario
+# Authentication System Setup - SOBA Calgary
 
-This document outlines the complete authentication system implementation for the SOBA Ontario website, including member registration, login, admin dashboard, and role-based access control.
+This document outlines the complete authentication system implementation for the SOBA Calgary website, including member registration, login, admin dashboard, and role-based access control.
 
 ## Features Implemented
 
@@ -228,4 +228,4 @@ types/
 └── next-auth.d.ts             # NextAuth type definitions
 ```
 
-This system provides a solid foundation for the SOBA Ontario website with secure authentication, member management, and a comprehensive admin dashboard. 
+This system provides a solid foundation for the SOBA Calgary website with secure authentication, member management, and a comprehensive admin dashboard. 

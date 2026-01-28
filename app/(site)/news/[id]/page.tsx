@@ -7,16 +7,16 @@ import { notFound } from "next/navigation";
 const allNewsArticles = [
   {
     id: 1,
-    title: "SOBA Ontario Community Day 2025",
+    title: "SOBA Calgary Community Day 2025",
     excerpt: "Join us for our annual Community Day on Saturday, May 31st, 2025. A day of celebration, networking, and community building.",
     date: "May 27, 2025",
     dateISO: "2025-05-27",
     image: "/images/gallery/DSCF8816.jpg",
     category: "Events",
     featured: true,
-    author: "SOBA Ontario Events Team",
+    author: "SOBA Calgary Events Team",
     fullContent: `
-      <p>We are excited to announce SOBA Ontario Community Day 2025, our flagship annual event that brings together Sasse College alumni from across Ontario for a day of celebration, networking, and community building.</p>
+      <p>We are excited to announce SOBA Calgary Community Day 2025, our flagship annual event that brings together Sasse College alumni from across SOBA Calgary for a day of celebration, networking, and community building.</p>
       
       <p>Scheduled for Saturday, May 31st, 2025, this special day will feature cultural activities, professional networking sessions, traditional cuisine, and opportunities to strengthen the bonds that unite us as Sobans.</p>
       
@@ -31,7 +31,7 @@ const allNewsArticles = [
       </ul>
       
       <h3>Registration Information</h3>
-      <p>Registration is now open! This event is free for current SOBA Ontario members and $25 for guests. Space is limited, so please register early to secure your spot.</p>
+      <p>Registration is now open! This event is free for current SOBA Calgary members and $25 for guests. Space is limited, so please register early to secure your spot.</p>
       
       <p>Join us as we celebrate our shared heritage, discuss community initiatives, and plan for a brighter future together. Mark your calendars and we look forward to seeing you there!</p>
     `,
@@ -39,57 +39,57 @@ const allNewsArticles = [
   },
   {
     id: 3,
-    title: "SOBA Ontario Initial Launch",
-    excerpt: "SOBA Ontario officially launched its website on May 27, 2025, with a special event at the Sasse community center",
+    title: "SOBA Calgary Initial Launch",
+    excerpt: "SOBA Calgary officially launched its website on May 27, 2025, with a special event at the Sasse community center",
     date: "May 27, 2025",
     dateISO: "2025-05-27",
     image: "/images/gallery/initial-launch.jpg",
     category: "Community",
     featured: false,
-    author: "SOBA Ontario Communications",
+    author: "SOBA Calgary Communications",
     fullContent: `
-      <p>Today marks a historic milestone for SOBA Ontario as we officially launched our new website with a special celebration at the Sasse community center.</p>
+      <p>Today marks a historic milestone for SOBA Calgary as we officially launched our new website with a special celebration at the Sasse community center.</p>
       
-      <p>This launch represents years of planning and development to create a digital home for all Sasse College alumni in Ontario. Our new website will serve as the central hub for community news, events, membership information, and resources.</p>
+      <p>This launch represents years of planning and development to create a digital home for all Sasse College alumni in SOBA Calgary. Our new website will serve as the central hub for community news, events, membership information, and resources.</p>
       
       <h3>Website Features</h3>
-      <p>The new SOBA Ontario website includes:</p>
+      <p>The new SOBA Calgary website includes:</p>
       <ul>
         <li>Comprehensive membership portal and registration</li>
         <li>Event calendar and registration system</li>
         <li>News and updates from our community</li>
         <li>Photo gallery showcasing our events and activities</li>
-        <li>Online store for SOBA Ontario merchandise</li>
+        <li>Online store for SOBA Calgary merchandise</li>
         <li>Contact forms and member directory</li>
       </ul>
       
       <h3>Community Celebration</h3>
       <p>The launch event was attended by founding members, current leadership, and community supporters. We shared our vision for the future and demonstrated the website's capabilities.</p>
       
-      <p>This digital platform will help us better serve our growing membership and strengthen connections within the SOBA Ontario community. We invite all members to explore the new features and provide feedback as we continue to improve.</p>
+      <p>This digital platform will help us better serve our growing membership and strengthen connections within the SOBA Calgary community. We invite all members to explore the new features and provide feedback as we continue to improve.</p>
     `,
     tags: ["Website", "Launch", "Technology", "Community"]
   },
   {
     id: 4,
     title: "Welcome New Members",
-    excerpt: "We're pleased to welcome new members to SOBA Ontario this quarter, bringing our total membership to 31 active members.",
+    excerpt: "We're pleased to welcome new members to SOBA Calgary this quarter, bringing our total membership to 31 active members.",
     date: "May 24, 2025",
     dateISO: "2025-05-24",
     image: "/images/gallery/IMG_0305.jpg",
     category: "Membership",
     featured: false,
-    author: "SOBA Ontario Membership Committee",
+    author: "SOBA Calgary Membership Committee",
     fullContent: `
-      <p>We are delighted to welcome our newest members to the SOBA Ontario family! This quarter has seen tremendous growth in our community, bringing our total active membership to 31 dedicated individuals.</p>
+      <p>We are delighted to welcome our newest members to the SOBA Calgary family! This quarter has seen tremendous growth in our community, bringing our total active membership to 31 dedicated individuals.</p>
       
       <h3>Growing Community</h3>
-      <p>Our expanding membership reflects the strong appeal of SOBA Ontario's mission to support Sasse College alumni in their Canadian journey. Each new member brings unique experiences, skills, and perspectives that enrich our community.</p>
+      <p>Our expanding membership reflects the strong appeal of SOBA Calgary's mission to support Sasse College alumni in their Canadian journey. Each new member brings unique experiences, skills, and perspectives that enrich our community.</p>
       
       <h3>New Member Orientation</h3>
       <p>All new members are invited to attend our quarterly orientation session where they will:</p>
       <ul>
-        <li>Learn about SOBA Ontario's history and mission</li>
+        <li>Learn about SOBA Calgary's history and mission</li>
         <li>Meet current members and leadership team</li>
         <li>Discover available programs and services</li>
         <li>Connect with mentors in their field of interest</li>
@@ -99,7 +99,7 @@ const allNewsArticles = [
       <h3>Membership Benefits</h3>
       <p>Our members enjoy access to networking events, professional development opportunities, community outreach programs, and social activities that celebrate our shared heritage.</p>
       
-      <p>We look forward to supporting our new members as they integrate into the Canadian community and contribute to SOBA Ontario's continued growth and success.</p>
+      <p>We look forward to supporting our new members as they integrate into the Canadian community and contribute to SOBA Calgary's continued growth and success.</p>
     `,
     tags: ["Membership", "Welcome", "Growth", "Community"]
   }
@@ -117,13 +117,13 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
   
   if (!article) {
     return {
-      title: "Article Not Found - SOBA Ontario",
+      title: "Article Not Found - SOBA Calgary",
       description: "The requested news article could not be found.",
     };
   }
 
   return {
-    title: `${article.title} - SOBA Ontario News`,
+    title: `${article.title} - SOBA Calgary News`,
     description: article.excerpt,
   };
 }

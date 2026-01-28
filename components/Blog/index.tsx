@@ -12,8 +12,8 @@ const Blog = async () => {
           <SectionHeader
             headerInfo={{
               title: `NEWS & UPDATES`,
-              subtitle: `Latest SOBA Ontario News`,
-              description: `Stay informed about our latest events, community initiatives, and member achievements. Discover how SOBA Ontario continues to make a positive impact across the province.`,
+              subtitle: `Latest SOBA Calgary News`,
+              description: `Stay informed about our latest events, community initiatives, and member achievements. Discover how SOBA Calgary continues to make a positive impact across the province.`,
             }}
           />
         </div>

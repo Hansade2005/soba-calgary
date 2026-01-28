@@ -30,7 +30,7 @@ const About = () => {
             >
               <Image
                 src="/images/gallery/initial-launch.jpg"
-                alt="SOBA Ontario Initial Launch"
+                alt="SOBA Calgary Initial Launch"
                 className="rounded-lg"
                 fill
                 style={{ objectFit: "cover" }}
@@ -67,9 +67,9 @@ const About = () => {
                 </span>
               </h2>
               <p>
-                SOBA Ontario was founded in 2016 by forward-thinking individuals from the Class of '87
-                in the Greater Toronto Area, including Livinus Eleanya, Martin Mote, Elvis Nquenya, Gerald Muchu, and Armstrong Sache of the 87, who served as the pioneer president. Initially a close-knit community, we evolved into a 
-                registered not-for-profit organization supporting all Sasse College alumni in Ontario.
+                SOBA Calgary was founded by forward-thinking individuals from the Sasse College alumni
+                community in Calgary. We are a registered not-for-profit organization supporting all
+                Sasse College alumni in Calgary and the surrounding area.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -82,7 +82,7 @@ const About = () => {
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                     Community & Brotherhood
                   </h3>
-                  <p>Fostering lifelong relationships among Sobans across Ontario.</p>
+                  <p>Fostering lifelong relationships among Sobans across Calgary.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -95,7 +95,7 @@ const About = () => {
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                     Member Support & Integration
                   </h3>
-                  <p>Helping new Sobans integrate into Canadian life and community.</p>
+                  <p>Helping new Sobans integrate into Calgary life and community.</p>
                 </div>
               </div>
             </motion.div>
@@ -179,7 +179,7 @@ const About = () => {
             >
               <Image
                 src="/images/gallery/st-joseph-feast-day.jpg"
-                alt="SOBA Ontario St Joseph Feast Day"
+                alt="SOBA Calgary St Joseph Feast Day"
                 className="rounded-lg"
                 fill
                 style={{ objectFit: "cover" }}

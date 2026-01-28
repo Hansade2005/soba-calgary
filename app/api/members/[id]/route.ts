@@ -23,7 +23,7 @@ export async function GET(
       return NextResponse.json({
         id: "00000000-0000-0000-0000-000000000001",
         fullName: "SOBA Admin",
-        emailAddress: "admin@sobaontario.org",
+        emailAddress: "admin@sobacalgary.org",
         telephoneNumber: null,
         residentialAddress: null,
         yearOfEntry: null,

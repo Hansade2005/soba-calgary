@@ -34,13 +34,13 @@ const Footer = () => {
                     width={150}
                     height={60}
                     src="/images/logo/logo.png"
-                    alt="SOBA Ontario Logo"
+                    alt="SOBA Calgary Logo"
                     className="w-auto h-12"
                   />
                 </Link>
 
                 <p className="mb-10 mt-5">
-                  Connecting Sasse Old Boys Association across Ontario, Canada. Building community, 
+                  Connecting Sasse Old Boys Association across Calgary, Canada. Building community,
                   supporting education, and making a positive impact together.
                 </p>
 
@@ -48,25 +48,25 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="mailto:info@sobaontario.org"
+                  href="mailto:info@sobacalgary.org"
                   className="mb-3 block text-itemtitle font-medium text-black dark:text-white hover:text-primary"
                 >
-                  info@sobaontario.org
+                  info@sobacalgary.org
                 </a>
                 
                 <div className="mb-3">
                   <p className="text-itemtitle font-medium text-black dark:text-white">
-                     4030 Sheppard Ave E,<br />
-                   Scarborough, ON M1S 1S6<br />
+                     105 17 Ave SW,<br />
+                   Calgary, AB T2S 0A2<br />
                     Canada
                   </p>
                 </div>
                 
                 <a
-                  href="tel:226-606-0197"
+                  href="tel:403-555-1234"
                   className="text-itemtitle font-medium text-black dark:text-white hover:text-primary"
                 >
-                  226-606-0197
+                  403-555-1234
                 </a>
               </motion.div>
 
@@ -209,7 +209,7 @@ const Footer = () => {
                     Stay Connected
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Join our community and stay updated with SOBA Ontario news, events, and initiatives.
+                    Join our community and stay updated with SOBA Calgary news, events, and initiatives.
                   </p>
 
                   <div className="mb-6">
@@ -294,7 +294,7 @@ const Footer = () => {
             >
               <div className="text-center">
                 <p className="mb-1">
-                  &copy; {new Date().getFullYear()} SOBA Ontario. All rights reserved
+                  &copy; {new Date().getFullYear()} SOBA Calgary. All rights reserved
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Made with <span className="text-red-500">❤️</span> by Hans and Etienne
@@ -322,11 +322,11 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a 
-                    href="https://www.facebook.com/profile.php?id=100077660994849"
+                  <a
+                    href="https://www.facebook.com/sobacalgary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Facebook" 
+                    aria-label="Facebook"
                     className="group"
                   >
                     <svg
@@ -342,11 +342,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
-                    href="https://twitter.com/SobaOntario"
+                  <a
+                    href="https://twitter.com/SobaCalgary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Twitter" 
+                    aria-label="Twitter"
                     className="group"
                   >
                     <svg

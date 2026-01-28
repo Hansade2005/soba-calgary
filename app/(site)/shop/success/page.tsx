@@ -7,8 +7,8 @@ import { useSearchParams } from "next/navigation";
 
 // Note: Since we're using useSearchParams, we need to handle metadata differently
 // export const metadata: Metadata = {
-//   title: "Order Successful - SOBA Ontario Store",
-//   description: "Your order has been successfully placed. Thank you for supporting SOBA Ontario!",
+//   title: "Order Successful - SOBA Calgary Store",
+//   description: "Your order has been successfully placed. Thank you for supporting SOBA Calgary!",
 // };
 
 function ShopSuccessContent() {
@@ -223,13 +223,13 @@ function ShopSuccessContent() {
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           <div className="text-center">
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
-              Thank You for Supporting SOBA Ontario
+              Thank You for Supporting SOBA Calgary
             </h2>
             <div className="mx-auto max-w-3xl">
               <p className="mb-6 text-gray-600 dark:text-gray-400">
                 Your purchase directly supports our community programs and initiatives. 
                 Every item you buy helps us continue our mission of connecting and supporting 
-                Sasse College alumni across Ontario.
+                Sasse College alumni across SOBA Calgary.
               </p>
               
               <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -257,7 +257,7 @@ function ShopSuccessContent() {
                   </div>
                   <h3 className="mb-2 font-semibold text-black dark:text-white">Alumni Network</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Building connections across Ontario
+                    Building connections across SOBA Calgary
                   </p>
                 </div>
                 

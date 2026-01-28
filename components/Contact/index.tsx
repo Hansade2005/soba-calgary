@@ -130,7 +130,7 @@ const Contact = () => {
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Get in Touch with SOBA Ontario
+                Get in Touch with SOBA Calgary
               </h2>
 
               <form onSubmit={handleSubmit}>
@@ -272,21 +272,21 @@ const Contact = () => {
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Contact SOBA Ontario
+                Contact SOBA Calgary
               </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Location
                 </h3>
-                <p>Ontario, Canada<br />Serving Sasse College alumni across the province</p>
+                <p>Calgary, Canada<br />Serving Sasse College alumni across the province</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="mailto:info@sobaontario.org">info@sobaontario.org</a>
+                  <a href="mailto:info@sobacalgary.org">info@sobacalgary.org</a>
                 </p>
               </div>
               <div>
@@ -295,7 +295,7 @@ const Contact = () => {
                 </h4>
                 <p>
                   Annual membership fee: $100<br />
-                  Over 30 active members across Ontario
+                  Over 30 active members across SOBA Calgary
                 </p>
               </div>
             </motion.div>

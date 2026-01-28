@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
             currency: "cad",
             product_data: {
               name: `Donation - ${validatedData.category}`,
-              description: `SOBA Ontario donation for ${validatedData.category}`,
+              description: `SOBA Calgary donation for ${validatedData.category}`,
             },
             unit_amount: Math.round(validatedData.amount * 100), // Convert to cents
           },

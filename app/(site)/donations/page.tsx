@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import DonationForm from "@/components/Donations/DonationForm";
 
 export const metadata: Metadata = {
-  title: "Donations - SOBA Ontario",
-  description: "Support SOBA Ontario's community initiatives and programs through your generous donations.",
+  title: "Donations - SOBA Calgary",
+  description: "Support SOBA Calgary's community initiatives and programs through your generous donations.",
 };
 
 const donationCategories = [
@@ -81,7 +81,7 @@ export default function DonationsPage() {
                 <h3 className="font-bold text-primary">Thank You</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Every donation, no matter the size, makes a meaningful impact on our community.
-                  Your generosity helps us continue our mission of supporting Sobans across Ontario.
+                  Your generosity helps us continue our mission of supporting Sobans across SOBA Calgary.
                 </p>
               </div>
             </div>

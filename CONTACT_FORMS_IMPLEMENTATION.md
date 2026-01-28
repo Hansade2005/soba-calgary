@@ -1,8 +1,8 @@
-# Contact Forms Implementation - SOBA Ontario
+# Contact Forms Implementation - SOBA Calgary
 
 ## 🎉 **IMPLEMENTATION COMPLETE**
 
-Both contact forms on your SOBA Ontario website are now **fully functional** with proper database integration and admin management capabilities.
+Both contact forms on your SOBA Calgary website are now **fully functional** with proper database integration and admin management capabilities.
 
 ## 📧 **Contact Forms Overview**
 

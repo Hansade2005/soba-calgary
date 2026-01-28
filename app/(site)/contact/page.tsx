@@ -65,7 +65,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="text-center mb-16">
             <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              Contact SOBA Ontario
+              Contact SOBA Calgary
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">
               We'd love to hear from you. Get in touch with our team.
@@ -120,7 +120,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-black dark:text-white">Organization Status</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Registered as a not-for-profit under the Ontario Ministry of Government and Consumer Services
+                      Registered as a not-for-profit under the SOBA Calgary Ministry of Government and Consumer Services
                     </p>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
                   </a>
                   
                   <a
-                    href="https://twitter.com/SobaOntario"
+                    href="https://twitter.com/SobaSOBA Calgary"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"

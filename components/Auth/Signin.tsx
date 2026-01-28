@@ -155,7 +155,7 @@ const Signin = () => {
               <p>
                 Don't have an account?{" "}
                 <Link className="text-primary" href="/membership">
-                  Join SOBA Ontario
+                  Join SOBA Calgary
                 </Link>
               </p>
             </div>
