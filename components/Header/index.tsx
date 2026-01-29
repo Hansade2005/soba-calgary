@@ -43,7 +43,7 @@ const Header = () => {
           <div className="flex w-full items-center justify-between xl:w-1/4">
             <a href="/">
               <Image
-                src="/images/logo/preview.webp"
+                src="/images/logo/logo-new.png"
                 alt="SOBA Calgary Logo"
                 width={150}
                 height={60}
@@ -68,7 +68,7 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/preview.webp"
+              src="/images/logo/logo-new.png"
               alt="SOBA Calgary Logo"
               width={150}
               height={60}
