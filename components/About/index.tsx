@@ -61,7 +61,7 @@ const About = () => {
                 Sasse Old Boys Association Network
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Our Origin and  
+                Our Origin and
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
                   Mission
                 </span>
@@ -128,7 +128,7 @@ const About = () => {
                 Our Core Values
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Guided by {"   "}
+                Guided by
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   Integrity & Service
                 </span>
@@ -211,9 +211,9 @@ const About = () => {
           >
             <div className="mx-auto max-w-4xl rounded-lg bg-gradient-to-r from-primary/10 to-secondary/10 p-8 shadow-solid-8 dark:bg-gradient-to-r dark:from-primary/20 dark:to-secondary/20">
               <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
-                Acknowledging Our 
+                Acknowledging Our
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  {" "}Sobanese Allies
+                  Sobanese Allies
                 </span>
               </h2>
               <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
@@ -232,6 +232,88 @@ const About = () => {
         </div>
       </section>
       {/* <!-- ===== Sobanese Acknowledgment End ===== --> */}
+
+      {/* <!-- ===== Governance & Leadership Start ===== --> */}
+      <section className="py-20 lg:py-25 xl:py-30">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -20,
+              },
+
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+            viewport={{ once: true }}
+            className="animate_top"
+          >
+            <div className="mx-auto max-w-4xl">
+              <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+                1.4 Governance & Accountability
+              </h2>
+              <p className="mb-8 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                SOBAN Calgary is governed by a volunteer executive and committee structure that provides
+                strategic direction, financial oversight, and accountability. The organization operates with
+                documented policies, ethical standards, and transparent decision-making processes to
+                ensure responsible stewardship of public and grant funding.
+              </p>
+
+              <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+                1.5 Leadership Team
+              </h2>
+              <div className="overflow-x-auto">
+                <div className="min-w-full overflow-hidden rounded-lg bg-white shadow-solid-8 dark:bg-blacksection">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="bg-primary/10 dark:bg-primary/20">
+                        <th className="px-6 py-4 text-left text-sm font-semibold text-black dark:text-white">Position</th>
+                        <th className="px-6 py-4 text-left text-sm font-semibold text-black dark:text-white">Name</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stroke dark:divide-strokedark">
+                      <tr>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">President</td>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Ngwesse Ewane</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Secretary</td>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Obi Elvis</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Financial Secretary</td>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Ekane Ngulle</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Public Relations Officer</td>
+                        <td className="px-6 py-4 text-gray-700 dark:text-gray-300">Ateba Macossendi</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <h2 className="mb-6 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2 mt-12">
+                1.6 Funding & Sustainability
+              </h2>
+              <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+                SOBAN Calgary seeks funding from government grants, foundations, and community
+                supporters to deliver programs that align with Alberta's social development and community
+                wellbeing priorities. All funds received are directed toward program delivery, volunteer
+                support, and measurable community impact, in accordance with funder reporting
+                requirements.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+      {/* <!-- ===== Governance & Leadership End ===== --> */}
     </>
   );
 };
