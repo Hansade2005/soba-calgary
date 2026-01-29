@@ -18,19 +18,16 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🎓 SOBA Calgary - Proud Past, Bright Future
+                🎓 SOBAN Calgary - Proud Past, Bright Future
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Saint Joseph's College Sasse {"   "}
+                Sasse Old Boys Association Network {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Alumni Association
+                  Calgary Chapter
                 </span>
               </h1>
               <p>
-                SOBA Calgary is a registered not-for-profit organization supporting
-                Sasse College alumni in Calgary, Canada. We encourage harmony and
-                cooperation among Sobans, addressing members' social and economic needs
-                while facilitating integration into the Canadian community.
+                SOBAN Calgary is a community-based, non-governmental, non-profit organization committed to improving the social, economic, and overall well-being of individuals and families in Calgary. We deliver inclusive, community-driven programs that address social and economic issues and promote long-term resilience and empowerment.
               </p>
 
               <div className="mt-10">

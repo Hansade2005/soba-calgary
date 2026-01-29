@@ -1,47 +1,61 @@
-import { Feature } from "@/types/feature";
+import { Feature } from"@/types/feature";
 
 const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Community Support",
+    title: "Poverty Alleviation & Economic Support",
     description:
-      "Comprehensive member support including financial assistance, death benefits, and emergency aid programs.",
+      "Providing access to information, referrals, skills training opportunities, and community resources aimed at reducing financial hardship and improving economic stability.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "Professional Network",
+    title: "Youth Development & Leadership",
     description:
-      "Connect with fellow Sasse alumni across Calgary for career opportunities and business partnerships.",
+      "Empowering youth through mentorship, leadership development, educational support, and life-skills programming to prepare them for employment and civic participation.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Integration Services",
+    title: "Skills Development & Capacity Building",
     description:
-      "Helping new Sobans integrate into Calgary life with mentorship and community guidance.",
+      "Delivering workshops and training programs that build employability, leadership capacity, and self-reliance among community members.",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Educational Benefits",
+    title: "Newcomer & Family Support",
     description:
-      "Achievement recognition and support for members pursuing higher education and professional development.",
+      "Supporting newcomers and families through orientation, referrals, community navigation, and access to essential social services to promote successful integration.",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.svg",
-    title: "Cultural Events",
+    title: "Mental Wellbeing & Social Inclusion",
     description:
-      "Regular community gatherings, cultural celebrations, and networking events throughout Calgary.",
+      "Promoting mental wellbeing and social inclusion through awareness sessions, peer engagement activities, and connection to appropriate community supports.",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Lifelong Brotherhood",
+    title: "Education & Lifelong Learning",
     description:
-      "Building lasting relationships and maintaining connections with your Sasse College family.",
+      "Supporting academic success, career exploration, tutoring initiatives, and educational workshops that encourage lifelong learning.",
+  },
+  {
+    id: 7,
+    icon: "/images/icon/icon-07.svg",
+    title: "Community Outreach & Civic Engagement",
+    description:
+      "Encouraging active community participation through outreach initiatives, volunteerism, leadership development, and civic awareness activities.",
+  },
+  {
+    id: 8,
+    icon: "/images/icon/icon-08.svg",
+    title: "Cultural Preservation & Community Connection",
+    description:
+      "Promoting cultural understanding, heritage education, and intercultural dialogue that strengthen belonging and community cohesion.",
   },
 ];
 
