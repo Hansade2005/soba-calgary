@@ -1,25 +1,23 @@
-# SOBA Calgary Website
+# SOBAN Calgary Website
 
-The official website for SOBA Calgary (Saint Joseph's College Sasse Alumni Association), a registered not-for-profit organization supporting Sasse College alumni in Calgary, Canada.
+The official website for SOBAN Calgary (Sasse Old Boys Association Network - Calgary), a community-based, non-governmental, non-profit organization committed to improving the social, economic, and overall well-being of individuals and families in Calgary.
 
 ## Features
 
 - **Membership Registration**: Secure online membership registration with Stripe payment integration
-- **Donation System**: Multi-category donation platform supporting various community initiatives
-- **Member Benefits**: Comprehensive benefits including financial assistance, death benefits, and educational support
-- **Community Features**: Event management, news updates, and member networking
-- **Responsive Design**: Modern, mobile-first design built with Next.js and Tailwind CSS
-- **Database Integration**: Neon PostgreSQL database with Drizzle ORM for efficient data management
+- **Donation System**: Secure donation forms with multiple payment options
+- **Event Management**: Events calendar and registration
+- **News & Gallery**: Content management for news and photo galleries
+- **Mobile Responsive**: Fully responsive design for all devices
+- **Accessibility**: WCAG 2.1 AA compliant
+- **SEO Optimized**: Proper meta tags and schema markup
 
 ## Tech Stack
 
-- **Framework**: Next.js 15.1.6 with React 19
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 4.1.3
-- **Database**: Neon PostgreSQL with Drizzle ORM
-- **Payments**: Stripe Checkout for memberships and donations
-- **Animations**: Framer Motion
-- **Package Manager**: pnpm
+- **Framework**: React with Vite (React + TypeScript)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: React Icons
 
 ## Getting Started
 
@@ -134,38 +132,30 @@ pnpm start
 └── types/               # TypeScript type definitions
 ```
 
-## SOBA Ontario Information
+## SOBAN Calgary Information
 
 ### Mission
-We encourage harmony and cooperation among Sobans in Calgary, addressing members' social and economic needs while facilitating integration into the Canadian community.
+To strengthen communities by supporting individuals, families, and youth through poverty reduction initiatives, education, mentorship, skills development, and community engagement programs.
 
-### Core Values
-- Integrity
-- Service  
-- Equality
-- Connection
-- Community
-- Brotherhood
-- Leadership
-- Pride
-- Lifelong Learning
+### Core Community Focus Areas
+1. Poverty Alleviation & Economic Support
+2. Youth Development & Leadership
+3. Skills Development & Capacity Building
+4. Newcomer & Family Support
+5. Mental Wellbeing & Social Inclusion
+6. Education & Lifelong Learning
+7. Community Outreach & Civic Engagement
+8. Cultural Preservation & Community Connection
 
-### Membership Benefits
-- $5,000 member death benefit
-- Financial Emergency Assistance Program (up to $1,000)
-- $500 childbirth benefit
-- $500 immediate family member death benefit
-- Educational Achievement Benefits ($150-$250)
-- Wedding milestone celebrations ($150)
-- Hospitalization support ($200)
-- DHR (Diaspora Home Return) enrollment
+### Leadership Team
+- **President**: Ngwesse Ewane
+- **Secretary**: Obi Elvis
+- **Financial Secretary**: Ekane Ngulle
+- **Public Relations Officer**: Ateba Macossendi
 
 ### Contact Information
-- **Address**: 105 17 Ave SW, Calgary, AB T2S 0A2
-- **Phone**: 403-555-1234
+- **Address**: Calgary, AB
 - **Website**: www.sobacalgary.org
-- **Facebook**: https://www.facebook.com/sobacalgary
-- **Twitter**: @SobaCalgary
 
 ## Contributing
 

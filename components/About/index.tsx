@@ -58,7 +58,7 @@ const About = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   Est. 2016
                 </span>{" "}
-                Saint Joseph\'s College Sasse Alumni
+                Sasse Old Boys Association Network
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 Our Origin and  
@@ -67,9 +67,7 @@ const About = () => {
                 </span>
               </h2>
               <p>
-                SOBA Calgary was founded by forward-thinking individuals from the Sasse College alumni
-                community in Calgary. We are a registered not-for-profit organization supporting all
-                Sasse College alumni in Calgary and the surrounding area.
+                SOBAN Calgary is a community-based, non-governmental, non-profit organization committed to improving the social, economic, and overall well-being of individuals and families in Calgary. We are volunteer-led and focused on delivering inclusive, community-driven programs that address social and economic issues and promote long-term resilience and empowerment.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">

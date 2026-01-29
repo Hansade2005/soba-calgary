@@ -10,54 +10,106 @@ export const metadata: Metadata = {
 const outreachPrograms = [
   {
     id: 1,
-    title: "Educational Support Program",
-    description: "Providing scholarships and educational resources to deserving students in Cameroon and Canada.",
-    icon: "🎓",
-    impact: "50+ students supported annually",
+    title: "Poverty Alleviation & Economic Support",
+    description: "Providing access to information, referrals, skills training opportunities, and community resources aimed at reducing financial hardship and improving economic stability.",
+    icon: "💼",
+    impact: "Community members supported",
     activities: [
-      "Scholarship awards for secondary school students",
-      "University bursaries for higher education",
-      "Educational material donations",
-      "Mentorship programs"
+      "Financial literacy workshops",
+      "Job placement assistance",
+      "Small business development support",
+      "Resource navigation and referrals"
     ]
   },
   {
     id: 2,
-    title: "Healthcare Initiatives",
-    description: "Supporting healthcare facilities and medical outreach programs in underserved communities.",
-    icon: "🏥",
-    impact: "Healthcare facilities supported",
+    title: "Youth Development & Leadership",
+    description: "Empowering youth through mentorship, leadership development, educational support, and life-skills programming.",
+    icon: "👥",
+    impact: "Youth engaged annually",
     activities: [
-      "Medical equipment donations",
-      "Healthcare professional training",
-      "Community health awareness programs",
-      "Emergency medical support"
+      "Mentorship programs",
+      "Leadership development workshops",
+      "Educational support and tutoring",
+      "Life-skills training"
     ]
   },
   {
     id: 3,
-    title: "Community Development",
-    description: "Infrastructure and community development projects that improve quality of life.",
-    icon: "🏗️",
-    impact: "Multiple communities reached",
+    title: "Skills Development & Capacity Building",
+    description: "Delivering workshops and training programs that build employability, leadership capacity, and self-reliance.",
+    icon: "📚",
+    impact: "Training participants annually",
     activities: [
-      "Water and sanitation projects",
-      "Community center construction",
-      "Road and bridge repairs",
-      "Solar power installations"
+      "Vocational training workshops",
+      "Leadership capacity building",
+      "Employability skills development",
+      "Self-reliance programs"
     ]
   },
   {
     id: 4,
-    title: "Youth Empowerment",
-    description: "Programs focused on empowering young people through skills development and mentorship.",
-    icon: "👥",
-    impact: "200+ youth engaged",
+    title: "Newcomer & Family Support",
+    description: "Supporting newcomers and families through orientation, referrals, and community navigation.",
+    icon: "👨‍👩‍👧‍👦",
+    impact: "Families supported",
     activities: [
-      "Vocational training programs",
-      "Leadership development workshops",
-      "Sports and recreation activities",
-      "Career guidance and counseling"
+      "Orientation sessions",
+      "Community navigation support",
+      "Referrals to social services",
+      "Integration workshops"
+    ]
+  },
+  {
+    id: 5,
+    title: "Mental Wellbeing & Social Inclusion",
+    description: "Promoting mental wellbeing and social inclusion through awareness sessions and peer engagement.",
+    icon: "🧠",
+    impact: "Community members reached",
+    activities: [
+      "Mental health awareness sessions",
+      "Peer engagement activities",
+      "Community support groups",
+      "Wellbeing workshops"
+    ]
+  },
+  {
+    id: 6,
+    title: "Education & Lifelong Learning",
+    description: "Supporting academic success, career exploration, and lifelong learning opportunities.",
+    icon: "🎓",
+    impact: "Students supported",
+    activities: [
+      "Academic support and tutoring",
+      "Career exploration workshops",
+      "Educational workshops",
+      "Lifelong learning programs"
+    ]
+  },
+  {
+    id: 7,
+    title: "Community Outreach & Civic Engagement",
+    description: "Encouraging active community participation through outreach initiatives and volunteerism.",
+    icon: "🤝",
+    impact: "Volunteers engaged",
+    activities: [
+      "Outreach initiatives",
+      "Volunteer programs",
+      "Civic awareness activities",
+      "Community events"
+    ]
+  },
+  {
+    id: 8,
+    title: "Cultural Preservation & Community Connection",
+    description: "Promoting cultural understanding, heritage education, and intercultural dialogue.",
+    icon: "🌍",
+    impact: "Community members engaged",
+    activities: [
+      "Cultural awareness workshops",
+      "Heritage education programs",
+      "Intercultural dialogue events",
+      "Community connection activities"
     ]
   }
 ];
@@ -117,7 +169,7 @@ export default function OutreachPage() {
             <h2 className="mb-8 text-2xl font-bold text-black dark:text-white">
               Our Programs
             </h2>
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               {outreachPrograms.map((program) => (
                 <div
                   key={program.id}
@@ -162,20 +214,20 @@ export default function OutreachPage() {
             </h2>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
               <div className="text-center">
+                <div className="mb-2 text-3xl font-bold text-primary">100+</div>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Community Members Supported</p>
+              </div>
+              <div className="text-center">
                 <div className="mb-2 text-3xl font-bold text-primary">50+</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Students Supported</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Youth Engaged</p>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-3xl font-bold text-primary">$100K+</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Funds Raised</p>
+                <div className="mb-2 text-3xl font-bold text-primary">20+</div>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Workshops Delivered</p>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-3xl font-bold text-primary">10+</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</p>
-              </div>
-              <div className="text-center">
-                <div className="mb-2 text-3xl font-bold text-primary">5</div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Communities Reached</p>
+                <div className="mb-2 text-3xl font-bold text-primary">15+</div>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Families Supported</p>
               </div>
             </div>
           </div>
