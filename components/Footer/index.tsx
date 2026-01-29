@@ -33,7 +33,7 @@ const Footer = () => {
                   <Image
                     width={150}
                     height={60}
-                    src="/images/logo/preview.webp"
+                    src="/images/logo/logo-new.png"
                     alt="SOBA Calgary Logo"
                     className="w-auto h-12"
                   />
