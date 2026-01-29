@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `MEMBER TESTIMONIALS`,
                 subtitle: `What Our Members Say`,
-                description: `Hear from our founding members and active community about their experience with SOBA Calgary and the impact of our brotherhood.`,
+                description: `Hear from our founding members, current leadership, and active community about their experience with SOBA Calgary and the impact of our brotherhood. From our pioneer president to new members, discover how SOBA Calgary fosters lifelong connections and community support.`,
               }}
             />
           </div>
